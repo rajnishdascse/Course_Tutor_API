@@ -15,10 +15,9 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
+# To Check the API
+* In Postman hit the [localhost](http://localhost:3000) with the api name, like http://localhost:3000/courses
+* In the header pass Content-Type as "application/json"
+* To create the tutor hit this url: http://localhost:3000/courses/1/tutors
